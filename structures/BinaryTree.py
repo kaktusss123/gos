@@ -6,6 +6,7 @@ from icecream import ic
 class BinaryTree:
     class Node:
         """Класс узла дерева"""
+
         def __init__(self, value: Any) -> NoReturn:
             self.value = value
             self.left = self.right = None
@@ -91,7 +92,7 @@ class BinaryTree:
         self.root = None
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     tree = BinaryTree()
     tree.add(3)
     tree.add(4)
@@ -101,6 +102,6 @@ if __name__ == '__main__':
     #     3
     #  0     4
     #    2      8
-    ic(tree.find(0))   # ic| tree.find(0): Node(0)
-    ic(tree.find(8))   # ic| tree.find(8): Node(8)
+    ic(tree.find(0))  # ic| tree.find(0): Node(0)
+    ic(tree.find(8))  # ic| tree.find(8): Node(8)
     ic(tree.find(12))  # ValueError: No such value

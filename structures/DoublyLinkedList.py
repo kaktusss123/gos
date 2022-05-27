@@ -101,11 +101,11 @@ if __name__ == "__main__":
     ll.append(3)
     ll.append(4)
     ll.append(5)
-    ic(ll)                   # ic| ll: [1, 2, 3, 4, 5]
+    ic(ll)  # ic| ll: [1, 2, 3, 4, 5]
     ic(ll.find_by_index(2))  # ic| ll.find_by_index(2): Node(3)
     ic(ll.find_by_value(3))  # ic| ll.find_by_value(3): Node(3)
     ll.remove_by_index(2)
-    ic(ll)                   # ic| ll: [1, 2, 4, 5]
+    ic(ll)  # ic| ll: [1, 2, 4, 5]
     # ll.find_by_index(11)   # IndexError: No such index: 11
     # ll.find_by_value(11)   # ValueError: No such value: 11
     # ll.remove_by_index(11) # IndexError: No such index: 10
