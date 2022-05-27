@@ -1,8 +1,8 @@
 # Задачки на госы
 
 ## Структуры данных
-1. [Связный список](struct/LinkedList.py)
-2. [Двусвязный список](struct/DoublyLinkedList.py)
+1. [Связный список](structures/LinkedList.py)
+2. [Двусвязный список](structures/DoublyLinkedList.py)
 
 ## Сортировки
 1. [Пузырек](sort/bubble.py)
