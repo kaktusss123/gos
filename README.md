@@ -4,7 +4,7 @@
 1. [Связный список](structures/LinkedList.py)
 2. [Двусвязный список](structures/DoublyLinkedList.py)
 3. [Бинарное дерево поиска](structures/BinaryTree.py)
-4. [Стэк](structures/Stack.py)
+4. [Стэк](structures/Stack.py) / [Стэк без списка](structures/StackNoList.py)
 
 ## Сортировки
 1. [Пузырек](sort/bubble.py)
