@@ -14,6 +14,7 @@ class Stack:
 
     def __init__(self):
         self.head = None
+        list
         self.tail = None
 
     def is_empty(self):
