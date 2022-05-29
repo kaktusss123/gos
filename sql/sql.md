@@ -79,8 +79,6 @@ SELECT student_id,
        surname,
        stipend
 FROM student
-WHERE stipend > (
-    SELECT mean(stipend)
-    FROM student
-)
+GROUP BY kurs
+HAVING (stipend > mean(stipend))
 ```
